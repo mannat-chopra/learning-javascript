@@ -15,7 +15,7 @@ let valueInNumber = Number(score);
 
 let isLoggedIn = "mannat";
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 // 1 => true; 0 => false;
 // "" => false;
@@ -23,7 +23,23 @@ console.log(booleanIsLoggedIn)
 
 
 // ****************************conversions*******************
-// Arithmetic Operation
+// 
+
+
+// 1. Assigment Operator(=)
+let a = 10;
+let b = a;
+let c = a = 20;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// 2. Arithmetic Operation
+console.log(10+2);
+console.log(10-2);
+console.log(10*2);
+console.log(10/2);
+console.log(10%2);
 
 // 1 + "2" => 12
 
